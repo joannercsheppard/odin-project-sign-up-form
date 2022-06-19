@@ -2,16 +2,23 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(31, 30, 30);
+    background-color: #182628;
     font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
   }
+
+.sub-container1{
+    background-image: url('bananaleaf.png')!important;
+    background-blend-mode: multiply;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
 
 .screen {
     height: 100vh;
     width: 100vh;
-    padding: 16px;
-    background: orange;
-    border: 4px solid rgb(181, 91, 0);
+    padding: 10px;
+    background: #3b945e;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,16 +38,14 @@ body {
     height: 100%;
     width: 30%;
     padding: 16px;
-    background: plum;
-    border: 4px solid indigo;
+    background: #182628;
   }
 
   .sub-container2 {
     height: 100%;
     width: 70%;
     padding: 16px;
-    background: plum;
-    border: 4px solid indigo;
+    background: #182628;
     display: flex;
     flex-direction: column;
   }
@@ -50,7 +55,7 @@ body {
     width: 100%;
     height: 10ex;
     border: 4px solid darkslategray;
-    background: skyblue;
+    background: #65ccB8;
     display: flex;
     flex: 1;
     justify-content: center;
@@ -61,7 +66,7 @@ body {
     width: 100%;
     height: 10ex;
     border: 4px solid darkslategray;
-    background: skyblue;
+    background: #3b945e;
     display: flex;
     flex: 1;
     justify-content: center;
@@ -76,7 +81,7 @@ body {
     width: 100%;
     height: 10ex;
     border: 4px solid darkslategray;
-    background: skyblue;
+    background: #65ccB8;
     display: flex;
     flex: 1;
     justify-content: flex-start;
@@ -97,7 +102,7 @@ body {
   }
 
   .button {
-    background-color: #4CAF50; /* Green */
+    background-color: #2f6431; /* Green */
     color: white;
     padding: 16px 32px;
     text-align: center;
@@ -113,18 +118,18 @@ body {
   .button1 {
     font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
     background-color: white; 
-    color: #4CAF50; 
-    border: 4px solid #4CAF50;
+    color: #3b945e; 
+    border: 4px solid #3b945e;
   }
   
   .button1:hover {
     font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
-    background-color: #4CAF50;
+    background-color: #3b945e;
     color: white;
   }
 
   a {
-    color: #4CAF50;
+    color: #3b945e;
   }
   a:hover {
     color: white;
@@ -133,7 +138,7 @@ body {
     color: black;
   }
   a:visited {
-    color: #4CAF50;;
+    color: #3b945e;;
   }
 
  .form_elm{
@@ -148,4 +153,40 @@ input {
     padding:1.5ex;
     border-radius:5px;
     width: 30ex;
+  }
+
+.odin {
+    background-color: #182628;
+    border: 4px solid #182628;
+    width: 110%;
+    padding: 4ex;
+    height: 10ex;
+    opacity: 0.8;
+    display: flex;
+    align-self: flex-start;
+    justify-content: flex-start;
+    margin-top: 25ex;
+    border-radius:5px;
+}
+
+.odintext{
+    font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+    font-size: 7.5ex;
+    color: white;
+    opacity: 1.25;
+    width: 80%;
+    align-self: flex-start;
+    justify-content: center;
+}
+
+.odinpic {
+    width:30%;
+    align-self: flex-end;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+    min-width:20%;
+    height: auto;
   }
